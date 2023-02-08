@@ -44,8 +44,8 @@ function Objeto() {
 
 root.render(
   <>
-    <Header />
-    <Main />
-    <Footer />
+    <Header titulo="Header" />
+    <Main titulo="Main" />
+    <Footer titulo="Footer" />
   </>
 );

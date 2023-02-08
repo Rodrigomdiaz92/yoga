@@ -1,8 +1,10 @@
-export function Main() {
+export function Main(props) {
   const name = "rodri";
   return (
     <div>
-      <h1>Hola {name} soy un main</h1>
+      <h3>
+        Hola {name} soy un {props.titulo}
+      </h3>
     </div>
   );
 }

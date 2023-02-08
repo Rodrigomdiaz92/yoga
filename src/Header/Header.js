@@ -1,8 +1,10 @@
-export function Header() {
+export function Header(props) {
   const name = "rodri";
   return (
     <div>
-      <h1>Hola {name} soy un header</h1>
+      <h3>
+        Hola {name} soy un {props.titulo}
+      </h3>
     </div>
   );
 }
